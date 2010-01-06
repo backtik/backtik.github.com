@@ -43,8 +43,8 @@
   color: #fff;
   font-weight: bold;
   line-height: 1;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
   -moz-box-shadow: 0 1px 3px #999;
   -webkit-box-shadow: 0 1px 3px #999;
   text-shadow: 0 -1px 1px #222;
@@ -60,6 +60,10 @@
     color:#fff;
   }
 }
+.signup-button.pending {
+  background: #fff url(/images/button-pending-bg.png) repeat-x;
+}
+
 #courses {
   .span(8);
   .last;
@@ -74,14 +78,6 @@
     }
     h2 a {
       text-decoration:none;
-    }
-    
-    table.calendar {
-      width:30%;
-      font-size:10px;
-    }
-    table.calendar td.session {
-      background-color:#e3e3e3;
     }
   }
 }
@@ -120,5 +116,29 @@ span.reference-to-quotes {
   font-size:12px;
   .hidden {
     display:none;
+  }
+}
+#about-the-course {
+  .span(16);
+}
+#summplementary-materials {
+  .prepend(1);
+  .span(7);
+  .last;
+  #signup {
+    margin: 2em 0;
+  }
+  table.calendar {
+    width:30%;
+    font-size:10px;
+    .jan {
+      background-color:rgb(250,250,250);
+    }
+    .feb {
+      background-color:rgb(248,248,248);
+    }
+  }
+  table.calendar td.session {
+    background-color:#e3e3e3;
   }
 }

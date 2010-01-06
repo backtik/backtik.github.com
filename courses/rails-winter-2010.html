@@ -1,63 +1,159 @@
-<p class='calendar'>
-  <table class='calendar'> 
-    <tr>
-      <td rowspan='2'></td> 
-      <td></td> 
-      <td></td> 
-      <td>T</td> 
-      <td></td> 
-      <td>Th</td> 
-      <td></td> 
-      <td></td>
-    <tr>
-    <tr> 
-      <td class='jan month' rowspan='2'>Jan</td> 
-      <td class='jan'>17</td> 
-      <td class='jan'>18</td> 
-      <td class='jan session'>19</td> 
-      <td class='jan'>20</td> 
-      <td class='jan session'>21</td> 
-      <td class='jan'>22</td> 
-      <td class='jan'>23</td> 
-    </tr> 
-    <tr> 
-      <td class='jan'>24</td> 
-      <td class='jan'>25</td> 
-      <td class='jan session'>26</td> 
-      <td class='jan'>27</td> 
-      <td class='jan session'>28</td> 
-      <td class='jan'>29</td> 
-      <td class='jan'>30</td> 
-    </tr> 
-    <tr> 
-      <td class='feb month' rowspan='3'>Feb</td> 
-      <td class='jan'>31</td> 
-      <td class='feb'>1</td> 
-      <td class='feb session'>2</td> 
-      <td class='feb'>3</td> 
-      <td class='feb session'>4</td> 
-      <td class='feb'>5</td> 
-      <td class='feb'>6</td> 
-    </tr> 
-    <tr> 
-      <td class='feb'>7</td> 
-      <td class='feb'>8</td> 
-      <td class='feb session'>9</td> 
-      <td class='feb'>10</td> 
-      <td class='feb session'>11</td> 
-      <td class='feb'>12</td> 
-      <td class='feb'>13</td> 
-    </tr> 
-    <tr> 
-      <td class='feb'>14</td> 
-      <td class='feb'>15</td> 
-      <td class='feb session'>16</td> 
-      <td class='feb'>17</td> 
-      <td class='feb session'>18</td> 
-      <td class='feb'>19</td> 
-      <td class='feb'>20</td> 
-    </tr> 
-  </table>
-  6:00 - 8:00 PM<br/>
-  20 hours of instruction
-<p>
+---
+layout: course
+---
+
+<div id='bd'>
+  <h1>Rails Essentials</h1>
+  <div id="about-the-course">
+    <div class='topic'>
+      <h3>About Rails</h3> 
+      <p> 
+        <a href='http://rubyonrails.org' target='Rails'>Ruby on Rails</a> 
+        is a full-stack web application framework focused on rapid development and ease of maintenance.
+      </p> 
+      <p> 
+        Since 2005, Rails has grown rapidly in both usefulness and popularity. Web applications now running on Rails include:
+        <ul> 
+          <li> 
+            <a href='http://twitter.com' target='Twitter'>Twitter</a> 
+          </li> 
+          <li> 
+            <a href='http://www.linkedin.com' target='LinkedIn'>LinkedIn</a> 
+          </li> 
+          <li> 
+            <a href='http://www.hulu.com' target='Hulu'>Hulu</a> 
+          </li> 
+          <li> 
+            <a href='http://m.wikipedia.org' target='WikipediaMobile'>Wikipedia (Mobile)</a> 
+          </li> 
+          <li> 
+            <a href='http://www.basecamphq.com' target='Basecamp'>Basecamp</a> 
+          </li> 
+          <li> 
+            <a href='http://www.yellowpages.com' target='YellowPages'>YellowPages.com</a> 
+          </li> 
+          <li> 
+            <a href='http://github.com' target='GitHub'>GitHub</a> 
+          </li> 
+          <li> 
+            <a href='http://www.scribd.com' target='Scribd'>Scribd</a> 
+          </li> 
+          <li> 
+            <a href='http://www.slideshare.net' target='SlideShare'>SlideShare</a> 
+          </li> 
+        </ul> 
+      </p> 
+      <p> 
+        Learning Rails will breathe new life into your development process, whether you currently develop in PHP, Java, or Perl. The patterns and best practices encapsulated in Rails will change the way you think about web projects.
+      </p> 
+    </div> 
+    <div class='topic'> 
+      <h3>About the Class</h3> 
+      <p> 
+        The <strong>Rails Foundations</strong> workshop teaches the elements essential to every web application written in Rails: we will not cover every topic that could possibly appear in any Rails application, but we will cover the topics that appear in every Rails application.  The goal of Rails Foundations is to prepare attendees to tackle advanced Rails topics on their own or as a team member.
+      </p> 
+    </div> 
+    <div class='topic'> 
+      <h3>About the Instructors</h3> 
+      <p> 
+        Rails Foundations is team-taught by <a href='http://twitter.com/trek'>Trek Glowacki</a> and <a href='http://www.google.com/search?q=Jesse+Sielaff'>Jesse Sielaff</a>, two Rails developers who have spent years introducing new and veteran programmers alike to web development techniques. Each session focuses on a single component of the Rails stack – both in isolation and in relation to other components, in the context of the larger task of web development. Code samples and diagrams are lovingly handcrafted on a giant (30') marker board giving attendees a unique, high-level view of an evolving application.
+      </p> 
+    </div> 
+    <div class='topic'> 
+      <h3>About the Developers</h3> 
+      <p> 
+        Developers with previous experience in an OOP language will gain the most from the Rails Foundations workshop. We encourage attendees to code along with the demonstration on their *NIX-based laptops (including Linux and Mac OS X). Rails Foundations uses official documentation and community guides as a text resource – there are no books to buy.
+      </p> 
+      <p> 
+        <small>Rails Foundations is not intended as an introductory programming course. Experience with basic programming concepts and system administration of your preferred computing system is <em>required</em>.</small> 
+      </p> 
+    </div>
+  </div>
+  <div id="summplementary-materials">
+    <div id="signup">
+      <div class='signup-button'>
+        <a href='http://register.backtik.com/rails-winter-2010/'>Register: name your price!</a>
+      </div>
+    </div>
+    <div id="quotes-container">
+      {% include quotes.html %}
+    </div>
+    <div class='topic'>
+      <p class='calendar'>
+        <h3>Time & Dates</h3>
+        6:00 - 8:00 PM<br/>
+        20 hours of instruction
+        <table class='calendar'> 
+          <tr>
+            <td rowspan='2'></td> 
+            <td></td> 
+            <td></td> 
+            <td>T</td> 
+            <td></td> 
+            <td>Th</td> 
+            <td></td> 
+            <td></td>
+          <tr>
+          <tr> 
+            <td class='jan month' rowspan='2'>Jan</td> 
+            <td class='jan'>17</td> 
+            <td class='jan'>18</td> 
+            <td class='jan session'>19</td> 
+            <td class='jan'>20</td> 
+            <td class='jan session'>21</td> 
+            <td class='jan'>22</td> 
+            <td class='jan'>23</td> 
+          </tr> 
+          <tr> 
+            <td class='jan'>24</td> 
+            <td class='jan'>25</td> 
+            <td class='jan session'>26</td> 
+            <td class='jan'>27</td> 
+            <td class='jan session'>28</td> 
+            <td class='jan'>29</td> 
+            <td class='jan'>30</td> 
+          </tr> 
+          <tr> 
+            <td class='feb month' rowspan='3'>Feb</td> 
+            <td class='jan'>31</td> 
+            <td class='feb'>1</td> 
+            <td class='feb session'>2</td> 
+            <td class='feb'>3</td> 
+            <td class='feb session'>4</td> 
+            <td class='feb'>5</td> 
+            <td class='feb'>6</td> 
+          </tr> 
+          <tr> 
+            <td class='feb'>7</td> 
+            <td class='feb'>8</td> 
+            <td class='feb session'>9</td> 
+            <td class='feb'>10</td> 
+            <td class='feb session'>11</td> 
+            <td class='feb'>12</td> 
+            <td class='feb'>13</td> 
+          </tr> 
+          <tr> 
+            <td class='feb'>14</td> 
+            <td class='feb'>15</td> 
+            <td class='feb session'>16</td> 
+            <td class='feb'>17</td> 
+            <td class='feb session'>18</td> 
+            <td class='feb'>19</td> 
+            <td class='feb'>20</td> 
+          </tr> 
+        </table>
+      </p>
+    </div>
+      <div class='topic'> 
+        <h3>Location</h3> 
+        <p> 
+          <a href='http://www.workantileexchange.com' target='WorkEx'>Workantile Exchange</a> 
+          <br /> 
+          118 S. Main St  
+          <br /> 
+          Ann Arbor, MI
+        </p> 
+        <iframe width="270" height="210" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=101414194768609438619.00046e21fcba9e2d2964c&source=embed&ll=42.281325,-83.748801&spn=0.006668,0.011587&z=15&output=embed"></iframe> 
+      </div>
+  </div>
+</div>

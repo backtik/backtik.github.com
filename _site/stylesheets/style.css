@@ -252,8 +252,8 @@ hr.space {
   color: #ffffff;
   font-weight: bold;
   line-height: 1;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
   -moz-box-shadow: 0 1px 3px #999999;
   -webkit-box-shadow: 0 1px 3px #999999;
   text-shadow: 0 -1px 1px #222222;
@@ -268,6 +268,7 @@ hr.space {
   text-decoration: none;
   color: #ffffff;
 }
+.signup-button.pending { background: #ffffff url(/images/button-pending-bg.png) repeat-x; }
 #courses {
   width: 310px;
   float: left;
@@ -288,11 +289,6 @@ hr.space {
   font-size: 18px;
 }
 #courses .course h2 a { text-decoration: none; }
-#courses .course table.calendar {
-  width: 30%;
-  font-size: 10px;
-}
-#courses .course table.calendar td.session { background-color: #e3e3e3; }
 .ok, .the-deal { font-family: "Palatino", 'Palatino Linotype', 'Hoefler Text', "Times", 'Times New Roman', serif; }
 .ok {
   padding-right: 6px;
@@ -321,3 +317,24 @@ span.reference-to-quotes {
 }
 #quotes-container #quotes { margin-right: 20px; }
 #quotes-container .hidden { display: none; }
+#about-the-course {
+  width: 630px;
+  float: left;
+  margin-right: 10px;
+}
+#summplementary-materials {
+  padding-left: 40px;
+  width: 270px;
+  float: left;
+  margin-right: 10px;
+  margin-right: 0;
+  padding-right: 0;
+}
+#summplementary-materials #signup { margin: 2em 0; }
+#summplementary-materials table.calendar {
+  width: 30%;
+  font-size: 10px;
+}
+#summplementary-materials table.calendar .jan { background-color: #fafafa; }
+#summplementary-materials table.calendar .feb { background-color: #f8f8f8; }
+#summplementary-materials table.calendar td.session { background-color: #e3e3e3; }
