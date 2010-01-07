@@ -1,6 +1,7 @@
 @import 'reset';
 @import 'typography';
 @import 'grid';
+@import 'forms';
 
 .rounded(@n:0px){
   -moz-border-radius:@n;
@@ -140,5 +141,46 @@ span.reference-to-quotes {
   }
   table.calendar td.session {
     background-color:#e3e3e3;
+  }
+}
+
+form#signup {
+  h2 {
+    margin-top: 1em;
+  }
+  .span(14);
+  .last;
+  #registration_credit_card_number, #registration_email {
+    width: 300px;
+  }
+  #card_expiration_verification_value {
+    width:150px !important;
+  }
+  
+  
+  .field {
+    margin: .5em 0;
+  }
+  input[type='text'], input[type='select'] {
+    font-size:16px;
+  }
+  label {
+    display:block;
+    font-size:16px;
+    :after {
+      content: ":";
+    }
+  }
+  .bid label:after { content: "";}
+  .bid {
+    .clearfix;
+    .field {
+      float:left; 
+      width:200px;
+    }
+    .explain {
+      width:320px;
+      float:right;
+    }
   }
 }
